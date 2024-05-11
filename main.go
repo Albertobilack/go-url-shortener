@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	r := gin.Default()
+	r := gin.	()
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "Hey Go URL Shortener !",
